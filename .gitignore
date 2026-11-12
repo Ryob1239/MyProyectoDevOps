@@ -1,0 +1,35 @@
+# Datos sensibles y configuración local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# JavaScript / Node.js
+node_modules/
+dist/
+build/
+coverage/
+
+# Bases de datos locales generadas
+*.sqlite
+*.sqlite3
+*.db
+
+# Archivos temporales, registros y sistema
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Configuración personal de editores
+.vscode/
+.idea/

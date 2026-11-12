@@ -1,0 +1,33 @@
+name: Validar estructura del repositorio
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Verificar carpetas y archivos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener archivos del repositorio
+        uses: actions/checkout@v4
+
+      - name: Comprobar estructura
+        shell: bash
+        run: |
+          set -euo pipefail
+          for carpeta in backend frontend database docs images .github/workflows; do
+            test -d "$carpeta" || { echo "Falta carpeta: $carpeta"; exit 1; }
+            echo "OK carpeta: $carpeta"
+          done
+          for archivo in README.md LICENCE .gitignore .github/workflows/validar-estructura.yml; do
+            test -f "$archivo" || { echo "Falta archivo: $archivo"; exit 1; }
+            echo "OK archivo: $archivo"
+          done
+          echo "Validación completada con éxito."
