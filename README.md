@@ -55,4 +55,4 @@ El archivo `.github/workflows/validar-estructura.yml` ejecuta una revisión de c
 
 ## Autor
 
-**[TU NOMBRE]** — Práctica de DevOps, 2026.
+**Felipe Torres Molina** — Práctica de DevOps, 2026.
