@@ -2,8 +2,8 @@
 
 **Actividad:** Organización de un repositorio GitHub para DevOps  
 **Proyecto:** MyProyectoDevOps  
-**Estudiante:** [TU NOMBRE]  
-**Fecha:** [FECHA DE ENTREGA]
+**Estudiante:** Felipe Torres Molina 
+**Fecha:** 13/11/2026
 
 ## 1. Introducción
 
@@ -51,39 +51,11 @@ Se agregó `.github/workflows/validar-estructura.yml`. Este flujo inicia con cad
 
 No se ejecutan pruebas funcionales porque todavía no se proporcionó una aplicación; esta automatización es una comprobación de estructura.
 
-## 7. Evidencias que debes capturar en tu cuenta de GitHub
-
-**Evidencia 1 — Repositorio creado.** Captura la vista principal donde se vean el nombre `MyProyectoDevOps`, la rama `main` y los directorios principales.
-
-**[INSERTAR AQUÍ CAPTURA 1]**
-
-**Evidencia 2 — README visible.** Captura el texto de `README.md` mostrado debajo del listado de archivos en GitHub.
-
-**[INSERTAR AQUÍ CAPTURA 2]**
-
-**Evidencia 3 — LICENCE.** Abre `LICENCE` y captura su contenido, incluyendo el encabezado `MIT License` y el nombre del titular ya corregido.
-
-**[INSERTAR AQUÍ CAPTURA 3]**
-
-**Evidencia 4 — .gitignore.** Abre `.gitignore` y muestra varias reglas de exclusión.
-
-**[INSERTAR AQUÍ CAPTURA 4]**
-
-**Evidencia 5 — Workflow.** Entra a `.github/workflows/validar-estructura.yml` y captura su contenido o su ruta.
-
-**[INSERTAR AQUÍ CAPTURA 5]**
-
-**Evidencia 6 — Ejecución de Actions.** En la pestaña `Actions`, abre «Validar estructura del repositorio» y captura el trabajo de verificación exitoso (marca verde) y sus pasos.
-
-**[INSERTAR AQUÍ CAPTURA 6]**
-
-**Enlace al repositorio:** [PEGAR ENLACE REAL DE GITHUB]
-
-## 8. Conclusión
+## 7. Conclusión
 
 El uso conjunto de `README.md`, `LICENCE` y `.gitignore` mejora la comunicación técnica, define cómo puede usarse el software y reduce la inclusión accidental de archivos locales en el control de versiones. La estructura separada para backend, frontend, base de datos, documentación e imágenes permite que el proyecto crezca de manera ordenada. Además, un flujo sencillo de GitHub Actions permite comprobar automáticamente que la organización básica se mantenga.
 
-## 9. Referencias
+## 8. Referencias
 
 - GitHub Docs. (s. f.). *About the repository README file*. https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
 - GitHub Docs. (s. f.). *Licensing a repository*. https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
